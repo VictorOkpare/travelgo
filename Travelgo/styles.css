@@ -24,6 +24,18 @@
 
 }
 
+.hero-text-ctn{
+    width: 40vw;
+    font-family:"Open Sans";
+    
+    margin: 20vh auto;
+}
+.p1{
+    font-weight: 800;
+    font-size: 45px;
+    text-align: center;
+}
+
 
 nav{
     display: flex;
@@ -76,3 +88,4 @@ ul{
     
     ;
 }
+ 
