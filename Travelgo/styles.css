@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+
+.Image-container{
+    height: 120vh;
+    
+}
+.Image-container>img{
+    height: 100%;
+    width: 100%;
+}
+
+.hero-ctn{
+    height: 100vh; /* Full viewport height */
+    background-image: url('../bgImg1.png'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */ 
+    color: white;
+    z-index: 5;
+    margin-top: -120vh;
+    padding-top: 10px;
+
+}
+
+
+nav{
+    display: flex;
+    justify-self:center;
+    justify-content: space-between;
+    width: calc(100% - 260px);
+    align-items: center;
+}
+
+.logo-ctn{
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.logo-ctn>span{
+    font-size: 32px;
+    
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items:stretch;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+.navlist-ctn{
+    width:calc(35%);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.icon{
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+
+}
+.fa-star{
+    color:  rgba(255, 122, 0, 1);
+    
+    ;
+}
